@@ -1,11 +1,11 @@
 [Unit]
 # senti-gateway-dev.service
-Description=Senti Gateway
+Description=Senti ML Framework
 Documentation=https://github.com/senti-iot/senti-ml-framework/blob/master/README.md
 # After=network.target
 
 [Service]
-WorkingDirectory=/srv/nodejs/senti/services/gateway/development
+WorkingDirectory=/srv/nodejs/senti/act/ml-framework/development
 ExecStart=/usr/bin/node server.js
 Environment=NODE_PORT=4005
 Environment=NODE_ENV=development
