@@ -7,7 +7,7 @@
 	"scripts": {},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/senti-io/senti-ml-framework.git"
+		"url": "git+https://github.com/senti-iot/senti-ml-framework.git"
 	},
 	"keywords": [
 		"Senti.Cloud",
@@ -25,9 +25,9 @@
 	},
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/senti-io/senti-ml-framework/issues"
+		"url": "https://github.com/senti-iot/senti-ml-framework/issues"
 	},
-	"homepage": "https://github.com/senti-io/senti-ml-framework#readme",
+	"homepage": "https://github.com/senti-iot/senti-ml-framework#readme",
 	"dependencies": {
 		"apisauce": "^1.1.1",
 		"body-parser": "^1.19.0",

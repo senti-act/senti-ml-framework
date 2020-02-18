@@ -1,7 +1,7 @@
 [Unit]
 # senti-gateway.service
 Description=Senti Gateway
-Documentation=https://github.com/senti-io/senti-ml-framework/blob/master/README.md
+Documentation=https://github.com/senti-iot/senti-ml-framework/blob/master/README.md
 # After=network.target
 
 [Service]
