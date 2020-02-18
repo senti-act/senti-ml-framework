@@ -10,6 +10,7 @@ const helmet = require('helmet')
 const bodyParser = require('body-parser')
 const app = express()
 // API endpoint imports
+const test = require('./api/test')
 
 const port = process.env.NODE_PORT || 4004
 
@@ -20,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 
 app.use(cors())
 
-
+app.use([test])
 //---Start the express server---------------------------------------------------
 
 const startServer = () => {
